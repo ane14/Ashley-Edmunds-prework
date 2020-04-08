@@ -1,3 +1,13 @@
+p{
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-weight: bolder;
+  position: relative;
+  left: -260px;
+  top: -150px;
+}
 body {
   background-color: rgb(98, 165, 182);
   margin: 0;
@@ -7,18 +17,21 @@ body {
   font-family: helvetica;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translateX(-50%) translateY(-50%);
-
 }
 h1 {
   color: black;
   font-size: 9px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 h2 {
   color: white;
   font-size: 60px;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 h3 {
   color: white;
