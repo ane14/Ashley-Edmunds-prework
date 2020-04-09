@@ -1,45 +1,39 @@
-p{
+.new-text{
   text-align: left;
   color: white;
-  text-transform: uppercase;
-  font-family: helvetica;
+  position: static;
   font-weight: bolder;
-  position: relative;
-  left: -260px;
-  top: -150px;
 }
 body {
   background-color: rgb(98, 165, 182);
   margin: 0;
   line-height: 1.5;
   text-transform: uppercase;
-  text-align: center;
   font-family: helvetica;
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translateX(-50%) translateY(-50%);
 }
-h1 {
+.center-up {
   color: black;
   font-size: 9px;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  position: relative;
+  left: 400px;
+  top: 195px;
 }
-h2 {
+.center-middle {
   color: white;
   font-size: 60px;
   font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  position: relative;
+  left: 220px;
+  top: 200px;
 }
-h3 {
+.center-border {
   color: white;
   outline: 1.5px solid white;
   font-size: 9px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 200px;
-  margin-left: 200px;
   font-weight: bold;
+  position: relative;
+  left: 425px;
+  top: 205px;
+  padding: 2.5px;
+  width: 90px;
 }
