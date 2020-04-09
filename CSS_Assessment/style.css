@@ -16,11 +16,11 @@
     width: 50%;
     background-color: blue;
     color: black;
-    padding: 12%;
+    padding: 14%;
     text-align: center;
     margin-right: 40px;
     margin-top: 30px;
-    height: 50%;
+    height: 60%;
     border: none;
     font-size: 10px;
 }
@@ -29,8 +29,8 @@
     background-color: red;
     color: black;
     width: 25%;
-    height: 50%;
-    padding: 12%;
+    height: 60%;
+    padding: 14%;
     margin-left: 40px;
     margin-top: 30px;
     border: none;
