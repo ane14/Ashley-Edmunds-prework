@@ -1,0 +1,52 @@
+.navbar {
+    color: white;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+p {
+    color:white;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    p {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    h6 {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    button {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    h6 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    button {
+      width: 40%;
+    }
+}
