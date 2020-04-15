@@ -1,3 +1,24 @@
 .navbar-brand {
     background-color: #4aaaa5;
 }
+
+.container {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+ 
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #666666;
+    color: 
+}
