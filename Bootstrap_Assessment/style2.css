@@ -13,18 +13,18 @@ body {
 }
 .center-up {
   color: black;
-  font-size: 9px;
+  font-size: 11px;
   position: relative;
-  left: 400px;
-  top: 195px;
+  left: 440px;
+  top: 145px;
 }
 .center-middle {
   color: white;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
   position: relative;
-  left: 220px;
-  top: 200px;
+  left: 240px;
+  top: 100px;
 }
 .center-border {
   color: white;
@@ -32,8 +32,8 @@ body {
   font-size: 9px;
   font-weight: bold;
   position: relative;
-  left: 425px;
-  top: 205px;
+  left: 480px;
+  top: 60px;
   padding: 2.5px;
   width: 90px;
 }
