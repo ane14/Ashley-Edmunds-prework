@@ -61,6 +61,16 @@ h4 {
     padding: 10px;
     background-color: white;
 }
+.remainingGuess {
+    border: 2px solid black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px auto;
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    background-color: white;
+}
 .correctGuesses {
     border: 2px solid black;
     font-size: 20px;
