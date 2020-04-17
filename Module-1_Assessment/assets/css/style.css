@@ -2,11 +2,14 @@
     background-color: #4aaaa5;
 }
 
+nav{
+    background-color: #ffffff;
+}
 .container {
     background-color: #ffffff;
 }
 
-h1 {
+h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:  #4aaaa5;
     font-weight: bolder;
@@ -23,4 +26,24 @@ a {
 footer {
     background-color: #666666;
     color: white;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+body {
+    background-image: url(../images/swirl_pattern.png);
+    font-weight: bolder;
+}
+
+button {
+    background-color: #4aaaa5;
+}
+
+.bottom {
+    background-color: #4aaaa5;
+}
+
+.card {
+    background-color: #ffffff;
 }

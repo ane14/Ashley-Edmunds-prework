@@ -5,23 +5,27 @@
 </html>
 
 <body>
-  <nav class="navbar navbar-inverse, border-bottom">
+  <nav class="navbar navbar-inverse, border-bottom p-0 m-0">
     <div class="container">
       <div class="navbar-header, text-white">
-        <h1 class="navbar-brand m-0">Ashley Edmunds</h1>
+        <h2 class="navbar-brand">Ashley Edmunds</h2>
       </div>
       <div class="nav navbar-nav d-inline">
-          <a href="index.html" class="nav-item nav-link, text-secondary">About</a>
-           <a href="portfolio.html" class="nav-item nav-link, text-secondary">Portfolio</a>
-           <a href="contact.html" class="nav-item nav-link, text-secondary">Contact</a>
+          <a href="index.html" class="nav-item nav-link, text-secondary">About
+            <span class="border-right p-1"></span>
+          </a>
+          <a href="portfolio.html" class="nav-item nav-link, text-secondary pl-2">Portfolio
+            <span class="border-right p-1"></span>
+          </a>
+          <a href="contact.html" class="nav-item nav-link, text-secondary pl-2">Contact</a>
       </div>
     </div>
   </nav>
 
-  <div class="container-md w-50 h-15, center">
+  <div class="container-md w-50 pt-0, d-flex-align-items-center" style="max-width: 800px;">
     <div class="jumbotron">
-      <h1>Contact</h1>
-      <hr class="my-4">
+      <h3>Contact</h3>
+      <hr class="m-1">
       <form>
         <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
@@ -35,7 +39,7 @@
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn p-3 mb-2 text-white bg-#4aaaa5">Submit</button>
+        <button type="submit" class="btn p-3 mb-2 text-white bg-#4aaaa5 btn-sm">Submit</button>
       </form>
     </div>
   </div>
@@ -46,5 +50,5 @@
         </div>
   </div>
 
-  <footer class="footer, text-center">Copyright</footer>
+  <footer class="footer, text-center pt-4 pb-0">Copyright</footer>
 </body>
