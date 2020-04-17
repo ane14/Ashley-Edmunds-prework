@@ -1,0 +1,83 @@
+body {
+    background-image: url(../images/rockywall.png);
+}
+header {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px;
+    background-image: url(../images/seclogos.jpeg);
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    color: white;
+    text-decoration: underline white;
+}
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: white;
+}
+p {
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: 10px auto;
+    text-align: center;
+    width: 18%;
+    padding: 10px;
+    background-color: rgb(71, 17, 17);
+}
+.wins {
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px auto;
+    text-align: center;
+    width: 10%;
+    padding: 5px;
+    text-decoration: underline black;
+    background-color: white;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    text-decoration: underline black;
+}
+.currentGuesses {
+    border: 2px solid black;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+}
+.correctGuesses {
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px auto;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    background-color: white;
+}
+.alreadyGuessed {
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px auto;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    background-color: white;
+}
