@@ -1,21 +1,19 @@
-// Global Variables
-// ====================================================
-// Creating an array of words
-const college = ['gamecock', 'gator', 'tiger', 'crimsontide', 'aggie', 'bulldog', 'wildcat', 'commodore', 'rebel', 'razorback', 'volunteer'];
+const college = ['badger', 'gator', 'tiger', 'hokie', 'aggie', 'deacon', 'wildcat', 'husky', 'lion', 'cougar', 'bruin'];
 // Choose word randomly
 let randNum = Math.floor(Math.random() * college.length);
 let chosenWord = college[randNum];
 let rightWord = [];
 let wrongWord = [];
 let underScore = [];
-
+let remainingGuess = 0;
+let wins = 0;
 // Dom manipulation
+let docremainingGuess = document.getElementsByClassName('remainingGuess');
 let docUnderScore = document.getElementsByClassName('currentGuesses');
 let docRightGuess = document.getElementsByClassName('correctGuesses');
 let docWrongGuess = document.getElementsByClassName('alreadyGuessed');
-// Main
-// ====================================================
-console.log(chosenWord)
+let docWin = document.getElementsByClassName('win');
+
 // Create underscored based on length of word
 let generateUnderscore = () => {
     for(let i = 0; i < chosenWord.length; i++) {
@@ -24,10 +22,9 @@ let generateUnderscore = () => {
     }
     return underScore;
 }
-
 // Get user's guess
 document.addEventListener('keypress', (event) => {
-    let keyword = String.fromCharCode(event.keyCode);
+    let keyword = String.fromCharCode(event.keyCode); 
 // if users guess is right
     if (chosenWord.indexOf(keyword) > -1) {
     // add to right words array
@@ -38,15 +35,16 @@ document.addEventListener('keypress', (event) => {
     docRightGuess[0].innerHTML = rightWord;
 
     if(underScore.join('') == chosenWord) {
-        alert('You Win');
-        console.log(underScore);
+        alert('You Win'); 
+        
     }
+
 }   
 else {
     wrongWord.push(keyword);
     docWrongGuess[0].innerHTML = wrongWord;
-    console.log(wrongWord);
     }
+    
 });
 
 
