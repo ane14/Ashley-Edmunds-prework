@@ -1,8 +1,9 @@
+/* figure out which styling is needed and which can be deleted*/
+/* finish media queries */
 .navbar-brand {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
 nav{
     background-color: #ffffff;
 }
@@ -17,15 +18,12 @@ h3 {
     color:  #4aaaa5;
     font-weight: bolder;
 }
- 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 .nav-link {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 footer {
     background-color: #666666;
     color: white;
@@ -39,15 +37,12 @@ body {
     background-image: url(../images/swirl_pattern.png);
     font-weight: bolder;
 }
-
 .btn-default {
     background-color: #4aaaa5;
 }
-
 .bottom {
     background-color: #4aaaa5;
 }
-
 .card {
     background-color: #ffffff;
 }
