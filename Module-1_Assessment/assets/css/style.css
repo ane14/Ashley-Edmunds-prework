@@ -9,7 +9,9 @@ nav{
 .container {
     background-color: #ffffff;
 }
-
+.container-fluid {
+    background-color: #4aaaa5;
+}
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:  #4aaaa5;
@@ -27,6 +29,7 @@ p {
 footer {
     background-color: #666666;
     color: white;
+    font-size: 10px;
 }
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -37,7 +40,7 @@ body {
     font-weight: bolder;
 }
 
-button {
+.btn-default {
     background-color: #4aaaa5;
 }
 
@@ -52,3 +55,13 @@ button {
 h5 {
     background-color: #4aaaa5;
 }
+.centered {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+  }
