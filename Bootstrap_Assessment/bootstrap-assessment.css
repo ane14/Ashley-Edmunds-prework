@@ -2,7 +2,9 @@
     color: white;
     font-family: 'Baloo Paaji 2', cursive;
 }
-
+.jumbotron {
+    margin-top: 70px;
+}
 p {
     color:white;
     font-family: 'Baloo Paaji 2', cursive;
@@ -33,14 +35,51 @@ h6 {
         width: 30%;
     }
 }
-
+@media screen and (max-width: 900px) {
+    p {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    .jumbotron {
+        margin-top: 70px;
+    }
+    h6 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    button {
+      width: 40%;
+    }
+}
+@media screen and (max-width: 850px) {
+    p {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    .jumbotron {
+        margin-top: 46px;
+    }
+    h6 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    button {
+      width: 40%;
+    }
+}
 @media screen and (max-width: 768px) {
     p {
       width: 100%;
       padding: 10px;
       text-align: center;
     }
-  
+    .jumbotron {
+        margin-top: 45px;
+    }
     h6 {
       width: 100%;
       padding: 20px;
