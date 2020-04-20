@@ -1,99 +1,625 @@
-body {
-    background-image: url(../images/rockywall.png);
+@media screen and (max-width: 320px) {
+    body {
+        background-image: url(../images/rockywall.png);
+    }
+    header {
+        height: 40px !important;
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 3px;
+        background-image: url(../images/collegelogos.jpeg);
+        border-bottom: black;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px !important;
+        color: black;
+        text-decoration: underline black;
+        border: white;
+        background-color: white;
+        max-width: 30%;
+        margin: auto;
+    }
+    h3 {
+        text-align: center; 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10px !important;
+        color: black;
+        border: white;
+        background-color: white;
+        max-width: 30%;
+        margin: auto;
+    }
+    p {
+        border: 2px solid black;
+        font-size: 20px !important;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+        max-width: 80% !important;
+        padding: 2px;
+        background-color: black;
+    }
+    .win {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 3%;
+        padding: 4px !important;
+        background-color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 7px auto;
+        text-align: center;
+        width: 90% !important;
+        padding: 2px;
+        text-decoration: underline black;
+    }
+    .currentGuesses {
+        border: 2px solid black;
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        max-width: 60% !important;
+        padding: 10px;
+        background-color: white;
+    }
+    .remainingGuess {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 8% !important;
+        padding: 4px;
+        background-color: white;
+    }
+    .correctGuesses {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        max-width: 60% !important;
+        padding: 10px;
+        background-color: white;
+    }
+    .alreadyGuessed {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 60% !important;
+        padding: 10px;
+        background-color: white;
+    }
+}  
+@media screen and (max-width: 480px) { 
+    body {
+        background-image: url(../images/rockywall.png);
+    }
+    header {
+        height: 80px !important;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3px;
+        background-image: url(../images/collegelogos.jpeg);
+        border-bottom: black;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px !important;
+        color: black;
+        text-decoration: underline black;
+        border: white;
+        background-color: white;
+        width: 40% !important;
+        margin: auto;
+        margin-top: 10px !important;
+    }
+    h3 {
+        text-align: center; 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px !important;
+        color: black;
+        border: white;
+        background-color: white;
+        width: 40% !important;
+        margin: auto;
+    }
+    p {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+        width: 50% !important;
+        padding: 2px;
+        background-color: black;
+    }
+    .win {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0 auto;
+        text-align: center;
+        width: 3%;
+        padding: 4px;
+        background-color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 7px auto;
+        text-align: center;
+        width: 90%;
+        padding: 2px;
+        text-decoration: underline black;
+    }
+    .currentGuesses {
+        border: 2px solid black;
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 60% !important;
+        padding: 10px;
+        background-color: white;
+    }
+    .remainingGuess {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0 auto;
+        text-align: center;
+        width: 8% !important;
+        padding: 4px;
+        background-color: white;
+    }
+    .correctGuesses {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 60% !important;
+        padding: 10px;
+        background-color: white;
+    }
+    .alreadyGuessed {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 60% !important;
+        padding: 10px;
+        background-color: white;
+    }
+}  
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(../images/rockywall.png);
+    }
+    header {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3px;
+        background-image: url(../images/collegelogos.jpeg);
+        border-bottom: black;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px !important;
+        color: black;
+        text-decoration: underline black;
+        border: white;
+        background-color: white;
+        width: 35% !important;
+        margin: auto;
+    }
+    h3 {
+        text-align: center; 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10% !important;
+        color: black;
+        border: white;
+        background-color: white;
+        width: 50%;
+        margin: auto;
+       
+    }
+    p {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+        width: 35% !important;
+        padding: 2px;
+        background-color: black;
+    }
+    .win {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0 auto;
+        text-align: center;
+        width: 3%;
+        padding: 4px;
+        background-color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 7px auto;
+        text-align: center;
+        width: 90%;
+        padding: 2px;
+        text-decoration: underline black;
+    }
+    .currentGuesses {
+        border: 2px solid black;
+        font-size: 30px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 40%;
+        padding: 10px;
+        background-color: white;
+    }
+    .remainingGuess {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0 auto;
+        text-align: center;
+        width: 8%;
+        padding: 4px;
+        background-color: white;
+    }
+    .correctGuesses {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 40%;
+        padding: 10px;
+        background-color: white;
+    }
+    .alreadyGuessed {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 40%;
+        padding: 10px;
+        background-color: white;
+    }
+}  
+@media screen and (max-width: 1280px) {
+    body {
+        background-image: url(../images/rockywall.png);
+    }
+    header {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        padding: 3px;
+        background-image: url(../images/collegelogos.jpeg);
+        border-bottom: black;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 90px !important;
+        color: black;
+        text-decoration: underline black;
+        border: white;
+        background-color: white;
+        width: 40% !important;
+        margin: auto;
+        margin-top: 10px;
+    }
+    h3 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px !important;
+        color: black;
+        border: white;
+        background-color: white;
+        width: 40% !important;
+        margin: auto;
+    }
+    p {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+        width: 28%;
+        padding: 10px;
+        background-color: black;
+    }
+    .win {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 3%;
+        padding: 5px;
+        background-color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 7px auto;
+        text-align: center;
+        width: 40%;
+        padding: 10px;
+        text-decoration: underline black;
+    }
+    .currentGuesses {
+        border: 2px solid black;
+        font-size: 40px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 25%;
+        padding: 10px;
+        background-color: white;
+    }
+    .remainingGuess {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 3%;
+        padding: 5px;
+        background-color: white;
+    }
+    .correctGuesses {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+    .alreadyGuessed {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+}  
+@media screen and (max-width: 1440px) {
+    body {
+        background-image: url(../images/rockywall.png);
+    }
+    header {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3px;
+        background-image: url(../images/collegelogos.jpeg);
+        border-bottom: black;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 100px !important;
+        color: black;
+        text-decoration: underline black;
+        border: white;
+        background-color: white;
+        width: 22% !important;
+        margin: auto;
+    }
+    h3 {
+        text-align: center; 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px !important;
+        color: black;
+        border: white;
+        background-color: white;
+        width: 22% !important;
+        margin: auto;       
+    }
+    p {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+        width: 15% !important;
+        padding: 10px;
+        background-color: black;
+    }
+    .win {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 3%;
+        padding: 5px;
+        background-color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 7px auto;
+        text-align: center;
+        width: 40%;
+        padding: 10px;
+        text-decoration: underline black;
+    }
+    .currentGuesses {
+        border: 2px solid black;
+        font-size: 40px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+    .remainingGuess {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 3%;
+        padding: 5px;
+        background-color: white;
+    }
+    .correctGuesses {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+    .alreadyGuessed {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
 }
-header {
-    height: 150px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 3px;
-    background-image: url(../images/collegelogos.jpeg);
-    border-bottom: black;
-}
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 100px;
-    color: black;
-    text-decoration: underline black;
-}
-h3 {
-    text-align: center; 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    color: black;
-    border: white;
-    background-color: white;
-    width: 30%;
-    margin-left: 380px;
-   
-}
-p {
-    border: 2px solid black;
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    color: white;
-    margin: 10px auto;
-    text-align: center;
-    width: 20%;
-    padding: 10px;
-    background-color: black;
-}
-.win {
-    border: 2px solid black;
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 10px auto;
-    text-align: center;
-    width: 10%;
-    padding: 5px;
-    background-color: white;
-}
-h4 {
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 7px auto;
-    text-align: center;
-    width: 40%;
-    padding: 10px;
-    text-decoration: underline black;
-}
-.currentGuesses {
-    border: 2px solid black;
-    font-size: 40px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 10px auto;
-    text-align: center;
-    width: 40%;
-    padding: 10px;
-    background-color: white;
-}
-.remainingGuess {
-    border: 2px solid black;
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 10px auto;
-    text-align: center;
-    width: 10%;
-    padding: 5px;
-    background-color: white;
-}
-.correctGuesses {
-    border: 2px solid black;
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 10px auto;
-    text-align: center;
-    width: 20%;
-    padding: 10px;
-    background-color: white;
-}
-.alreadyGuessed {
-    border: 2px solid black;
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 10px auto;
-    text-align: center;
-    width: 20%;
-    padding: 10px;
-    background-color: white;
-}
+@media screen and (max-width: 1920px) {
+    body {
+        background-image: url(../images/rockywall.png);
+    }
+    header {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 3px;
+        background-image: url(../images/collegelogos.jpeg);
+        border-bottom: black;
+    }
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 100px;
+        color: black;
+        text-decoration: underline black;
+        border: white;
+        background-color: white;
+        width: 18%;
+        margin: auto;
+    }
+    h3 {
+        text-align: center; 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px;
+        color: black;
+        border: white;
+        background-color: white;
+        width: 18%;
+        margin: auto;
+    }
+    p {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+        width: 12%;
+        padding: 10px;
+        background-color: black;
+    }
+    .win {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 3%;
+        padding: 5px;
+        background-color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 7px auto;
+        text-align: center;
+        width: 40%;
+        padding: 10px;
+        text-decoration: underline black;
+    }
+    .currentGuesses {
+        border: 2px solid black;
+        font-size: 40px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+    .remainingGuess {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 3%;
+        padding: 5px;
+        background-color: white;
+    }
+    .correctGuesses {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+    .alreadyGuessed {
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        background-color: white;
+    }
+} 
